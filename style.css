@@ -1,0 +1,145 @@
+body{
+    background-color: black;
+}
+header{
+    position: sticky;
+    top: 0;
+    z-index: 999;
+    background-color: green;
+    height: 118px;
+    width: 100%;
+    
+    a{
+        font-size: 30px;
+    }
+}
+main{
+    background-color: gray;
+    height: 400px;
+    width: 100%;
+}
+
+h1 {
+    font-size: 30px;
+    color: black;
+    padding: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+a{
+    color: black  ;
+}
+h3{
+    color: white;
+    font-size: 50px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.box{
+    margin: 0;
+    padding:0px;
+    box-sizing: border-box;
+    position: absolute;
+    top: 19%;
+    left: 32%;
+    
+    background-color: green;
+    width: 750px;
+    height: 300px;
+    
+    h2{
+        text-align: center; 
+        font-size: 50px;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    p{
+        font-size: 20px;
+        text-align: center;
+    }
+    .textBox{
+        text-align: center;
+    }
+    .textBox1{
+        border: 2px solid black; 
+        padding: 20px; 
+        border-radius: 10px; 
+        background-color: black;
+        color: green;
+        font-family: Arial, Helvetica, sans-serif;
+        margin: 5%;
+    }
+    .textBox2{
+        border: 2px solid black; 
+        padding: 20px; 
+        border-radius: 10px; 
+        background-color: black;
+        color: green;
+        font-family: Arial, Helvetica, sans-serif;
+        margin: 5%;
+    }
+    .textBox3{
+        border: 2px solid black; 
+        padding: 20px; 
+        border-radius: 10px; 
+        background-color: black;
+        color: green;
+        font-family: Arial, Helvetica, sans-serif;
+        margin: 5%;
+    }
+    
+}
+.box1{
+    margin: 0;
+    padding:20px;
+    box-sizing: border-box;
+    position: absolute;
+    top: 75%;
+    left: 32%;
+    
+    background-color: green;
+    width: 750px;
+    height: 690px;
+    text-align: center;
+    p3{
+        color: white;
+        font-size: 20px;  
+        
+        font-family: Arial, Helvetica, sans-serif;
+        height:50%;
+        width: 50%;
+        
+        right: 0;
+        top: 0;
+        
+    }
+}
+
+.ggc{  
+    margin-left: auto;
+    padding-left:auto;
+    box-sizing: border-box;
+    position: absolute;
+    top: 16%;
+    left: 75%;
+    /* The code below turns picture into circle*/
+    height: 380px;
+    width: 400px;
+    border-radius: 50%;
+}
+
+.my-photo{
+    margin-right: auto;
+    padding-right:auto;
+    box-sizing: border-box;
+    position: absolute;
+    top: 16%;
+    left: 5%;
+    object-fit: cover;
+    /* The code below turns picture into circle*/
+    height: 380px;
+    width: 400px;
+    border-radius: 50%;
+    border: 10px solid ; 
+}
